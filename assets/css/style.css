@@ -1,0 +1,99 @@
+.home-logo{ position:relative; top:30px; background:url(../images/home_logo.png) no-repeat center; background-size:60%; height:100px;  text-align:center; }
+.home-logo a{ display:block; height:80px; opacity:0;filter: alpha(opacity=0);}
+.home-container{ }
+.col-table{ vertical-align:middle;}
+.weixin-panel{ max-width:420px; background:url(../images/home-weixinbg.png) no-repeat; margin-bottom:50px; margin-right:auto; margin-left:auto;}
+.weixin-inner{ width:100%; max-width:420px; height:456px; z-index:1;}
+.long-shadow{  top:0; left:0; width:675px; height:711px; background:url(../images/long_shadow.png) no-repeat; }
+.weixin-panel img{ display:inline-block; }
+.weixin-panel h2{ font-size:29px; font-weight:normal; line-height:20px; padding-top:50px; }
+.weixin-panel h4{ position:relative; right:-7px; font-size:11px; letter-spacing:12px; font-weight:normal; color:#35a4a9;}
+.weixin-panel h3{ font-size:14px; font-weight:normal; line-height:20px;}
+.weixin-panel i{ font-size:24px; vertical-align:middle;}
+.home-slogan { position:relative; margin-top:50px; }
+.home-slogan h1{ color:#fff; font-size:20px; text-align:center; line-height:30px;}
+.home-slogan strong{ color:#f2ba45; font-size:32px; padding:0 5px;}
+.home-slogan h4{ line-height:30px; color:#fff; font-size:16px; font-weight:bold; opacity:0.9;text-align:center; margin:0; } 
+.home-content{}
+footer{ padding-top:20px; border-top:1px solid #eee; background:#fbfbfb; box-sizing:border-box;}
+
+
+.footer-nav{line-height:20px; }
+.small.social{ margin-top:5px;}
+.line.list-group{ position: relative; top:40px; border-left:1px solid #eee;  }
+.line.list-group > .item{ position:relative; top:-38px; padding:10px 0 10px 20px;   }
+.line.list-group > .item h4{ font-size:14px; color:#333;   }
+.line.list-group > .item  p,.line.list-group > .item li{ padding:5px 0; color:#444;}
+.line.list-group > .item ul{margin:0; padding:0; list-style:none; }
+.line.list-group > .item i{ display:inline-block; position:absolute; left:-8px; top:32px; width:16px; height:16px; border-radius:50%; border:2px solid #eee; background:#fff;}
+.line.list-group > .item:hover p,.line.list-group > .item:hover li,.line.list-group > .item:hover h4{color:#000;}
+.line.list-group > .item:hover i:before{ position: absolute; left:2px; top:2px; z-index:5; width:8px; height:8px;border-radius:50%;  display: inline-block; content:'';background:#e12740;}
+.line.list-table{ position:relative;  z-index:88; border:1px solid #eee; border-left:none; background:#fbfbfb;}
+.line.list-table ul{ display:table;margin:0; padding:0;width:100%;}
+.line.list-table li{ display:table; width:100%; padding:10px 20px; text-align:center; vertical-align:middle; border-left:1px solid #eee; box-sizing:border-box;}
+.line.list-table li p{ text-align:center;}
+.small.weixin-code img{ display:inline-block; width:90px; height:90px; }
+.line.iconbox-list{}
+.line.iconbox-list .item{ padding:10px 0; display:table; }
+.line.iconbox-list .item h5{ line-height:26px;}
+.line.iconbox-list .item .iconbox{ }
+.line.iconbox-list .item .iconbox em{ display:inline-block; width:52px; height:52px; border-radius:50%; text-align:center;}
+.line.iconbox-list .item .iconbox em i{ font-size:32px; line-height:52px; }
+.line.iconbox-list .item .textcontent{ position:relative; top:-23px; display:table-cell; padding-left:30px; }
+.line.iconbox-list .item .textcontent h5{ padding:0; line-height:1.2;}
+.line.iconbox-list .item .textcontent p{ margin-bottom:0;}
+.help textarea{ width:60%; height:150px; resize:none;}
+.form-group .line{ margin:10px 0;}
+.form-group .line input[type="text"],.form-group .line textarea{ width:100%; border:1px solid #ccc; height:30px; line-height:20px; padding:5px; box-sizing:border-box;}
+.form-group .line textarea{ min-height:160px; width:100%;}
+.form-group .line input[type="text"]:hover,.form-group .line textarea:hover{border:1px solid #9cc1e0;}
+@media(min-width:992px){
+.home-logo{background-position:left; }	
+.home-slogan h4{ padding-top:10px; text-align:left;}
+	}
+@media(min-width:768px){	
+footer{position: fixed; bottom:0; margin-bottom:0;}	
+footer.control{ position:absolute; bottom:0; }
+.copyright{ position:relative; top:-30px; text-align:left; width:70%; padding-bottom:0;  }
+#container-wrap{ position:relative; z-index:99; background:#fff; margin-bottom:150px; }
+.side-menu{ padding-right:80px;}
+.footer-nav{ display:inherit; padding-bottom:0;}
+.footer-nav li{ display:inline-block; padding:0 20px; width:auto; line-height:35px;}
+.social,.footer-nav{ text-align:left;}
+.line.list-table li{display:table-cell; width:33.3333%; }
+.btn.block{ display:inline-block;}
+.home .col-lg-6{ height:100%;}
+.col-table{ position:absolute; top:50%; margin-top:-300px; height:456px;  display:inline-block; vertical-align:middle;}
+.weixin-inner{ width:420px;}
+.weixin-panel{ padding-bottom:0;}
+footer .social{ text-align:right;}
+.home-logo{ top:120px; text-align:left; background-size:70%; height:120px; }
+.home-slogan { position:relative; top:100px; }
+.home-slogan h1{ color:#fff; font-size:26px;}
+.home-slogan strong{ color:#f2ba45; font-size:48px; padding:0 5px;}
+.home-slogan h4{ line-height:30px; color:#fff; font-size:19px; font-weight:normal; opacity:0.9; letter-spacing:1px; } 
+}
+
+@media(max-width:767px) and (orientation:landscape){
+.footer-nav{ text-align:center; }	
+.footer-nav li{ display:inline-block; width:auto; padding:0 15px; line-height:20px;}
+.small.social{ padding:0 0 10px 0;}
+.home-slogan{ margin-top:60px;}
+.home-slogan h1{ color:#fff; font-size:28px;}
+.home-slogan strong{font-size:36px;}
+.home-slogan h4{ font-size:20px;text-align:center; font-weight:normal;} 
+.weixin-panel{ margin-top:50px;}
+.home-logo{background-size:50%; background-position:center; top:20px;}
+}
+@media (min-width:480px) and (orientation :portrait){
+.copyright{ position:relative; left:-5px;}	
+.footer-nav li{ display:inline-block; width:auto; padding:0 15px; line-height:20px;}	
+.side-menu{ padding-right:0;}	
+.home .col-sm-6{ width:100%; height:auto;}
+.home .col-table{ position:relative; top:0; margin:0; display:block; height:auto; text-align:center;}
+.weixin-inner{ width:100%; height:456px; z-index:1;}
+.weixin-panel{ margin-top:80px; margin-bottom:50px;}
+.home-slogan{ top:40px;}
+.home-slogan h4{ font-size:18px;text-align:center; padding-top:20px;} 
+.home-logo{ position:relative; background-size:40%; height:100px; background-position:center; top:40px;text-align:center; }
+	}
